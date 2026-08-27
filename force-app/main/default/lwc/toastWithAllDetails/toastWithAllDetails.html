@@ -1,0 +1,17 @@
+<template>
+    <lightning-card>
+        <div class="slds-p-around_small">
+            <lightning-combobox options={toastOptions} onchange={toastOptionHandler}></lightning-combobox>
+            <template lwc:if={isbasicSelected}>
+                <lightning-button label="Show Basic Toast" onclick={basicToastHandler}></lightning-button>
+            </template>
+            <template lwc:else>
+                <lightning-combobox options={variantsOptions} onchange={variantsOptionHandler}></lightning-combobox>
+                <lightning-input label="Enter the Message" lwc:ref="messageInput" type="text"></lightning-input>
+                <lightning-input label="Enter the Title" lwc:ref="titleInput" type="text"></lightning-input>
+                <lightning-radio-group options={modeOptions} label="Enter the Mode" onchange={modeOptionHandler}></lightning-radio-group>
+                <lightning-button label="Toast" onclick={toastWithLinkHandler}></lightning-button>
+            </template>
+        </div>
+    </lightning-card>
+</template>

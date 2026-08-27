@@ -2,3 +2,4 @@
 
 lightning/toast : Basic Toast Using new module , ComponentName         : basicToast
 lightning/toast : Toast message with the label links and message Links : toastWithLinks
+lightning/toast : Toast Message with the All the Details and radio grp : toastWithAllDetails
