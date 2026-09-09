@@ -1,0 +1,8 @@
+import { LightningElement, api } from "lwc";
+
+export default class SpreadChild extends LightningElement {
+  @api name;
+  @api age;
+  @api technology;
+  @api skills;
+}
