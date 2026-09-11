@@ -10,3 +10,4 @@ lwc:spread : an object can be passed for the child instead of : spreadParent / s
 individual element
 targetConfigs : properties and targetConfigs for the App Builder : configParams
 lwc:on : to dynamically pass the event handlers : lwcOnComp
+slots : named slot and Unnamed slot : slotWrapperParent/slotWrapperChild
