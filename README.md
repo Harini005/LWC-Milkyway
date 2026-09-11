@@ -9,3 +9,4 @@ a page, Toast and Container position
 lwc:spread : an object can be passed for the child instead of : spreadParent / spreadChild
 individual element
 targetConfigs : properties and targetConfigs for the App Builder : configParams
+lwc:on : to dynamically pass the event handlers : lwcOnComp
