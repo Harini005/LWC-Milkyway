@@ -6,11 +6,13 @@ export default class LwcOnComp extends LightningElement {
     mouseover: this.handleMouseOver
   };
 
-  handleClick() {
+  handleClick(event) {
     console.log("Click event triggered");
+    console.log(event.type);
   }
 
-  handleMouseOver() {
+  handleMouseOver(event) {
     console.log("Mouse over event triggered");
+    console.log(event.type);
   }
 }
