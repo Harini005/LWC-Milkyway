@@ -8,3 +8,4 @@ lightning/toastContainer : Toast Cintainer for the max no of Toast on : basicToa
 a page, Toast and Container position
 lwc:spread : an object can be passed for the child instead of : spreadParent / spreadChild
 individual element
+targetConfigs : properties and targetConfigs for the App Builder : configParams
