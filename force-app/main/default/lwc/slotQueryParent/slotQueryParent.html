@@ -1,0 +1,11 @@
+<template>
+  <lightning-card>
+    <c-slot-query-child>
+      <lightning-button label="Save" onclick={handleSave}></lightning-button>
+      <lightning-button
+        label="Cancel"
+        onclick={handleCancel}
+      ></lightning-button>
+    </c-slot-query-child>
+  </lightning-card>
+</template>
