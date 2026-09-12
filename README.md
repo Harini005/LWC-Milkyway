@@ -12,3 +12,4 @@ targetConfigs : properties and targetConfigs for the App Builder : configParams
 lwc:on : to dynamically pass the event handlers : lwcOnComp
 slots : named slot and Unnamed slot : slotWrapperParent/slotWrapperChild
 querySelector Slot : parent component an query the elements using "this.template.querySelector" , in the child component "this.querySelector()" to query the elements in the child component : slotQueryChild/slotQueryParent
+onslotchange : conditional rendering of the slot and onslotchange handler : slotRenderingChild/slotRenderingParent

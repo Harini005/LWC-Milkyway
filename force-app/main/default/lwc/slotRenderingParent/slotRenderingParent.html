@@ -1,0 +1,16 @@
+<template>
+  <lightning-card>
+    <c-slot-rendering-child>
+      <template lwc:if={showActions}>
+        <div slot="saveAction">
+          <lightning-button label="Save"></lightning-button>
+        </div>
+      </template>
+      <template lwc:if={showCancel}>
+        <div slot="cancelAction">
+          <lightning-button label="Cancel"></lightning-button>
+        </div>
+      </template>
+    </c-slot-rendering-child>
+  </lightning-card>
+</template>
