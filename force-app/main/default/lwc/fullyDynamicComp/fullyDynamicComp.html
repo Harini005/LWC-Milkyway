@@ -1,0 +1,11 @@
+<template>
+  <lightning-card>
+    <lightning-input
+      type="text"
+      label="Enter Component Name"
+      lwc:ref="compName"
+    ></lightning-input>
+    <lightning-button label="Show" onclick={showCompHandler}></lightning-button>
+    <lwc:component lwc:is={componentConstructor}></lwc:component>
+  </lightning-card>
+</template>

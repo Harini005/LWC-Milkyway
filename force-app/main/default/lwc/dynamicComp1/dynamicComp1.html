@@ -1,0 +1,12 @@
+<template>
+  <lightning-card>
+    <lightning-combobox
+      options={options}
+      value={selectedOption}
+      onchange={handleChange}
+    >
+    </lightning-combobox>
+
+    <lwc:component lwc:is={componentConstructor}> </lwc:component>
+  </lightning-card>
+</template>
