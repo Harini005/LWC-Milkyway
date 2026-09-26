@@ -1,0 +1,14 @@
+<template>
+  <lightning-card>
+    <div class="container">
+      <lightning-input
+        label="Provide Account Id"
+        lwc:ref="accountId"
+      ></lightning-input>
+      <lightning-button
+        label="Search"
+        onclick={getAccountDetails}
+      ></lightning-button>
+    </div>
+  </lightning-card>
+</template>
