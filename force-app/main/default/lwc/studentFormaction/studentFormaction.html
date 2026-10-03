@@ -1,0 +1,22 @@
+<template>
+  <lightning-quick-action-panel header="Student Form">
+    <div class="container">
+      <lightning-input
+        label="First Name"
+        lwc:ref="firstName"
+        required
+      ></lightning-input>
+      <lightning-input label="Last Name" lwc:ref="lastName"></lightning-input>
+      <lightning-input label="Email" lwc:ref="email"></lightning-input>
+      <lightning-input label="Date Of Birth" lwc:ref="dob"></lightning-input>
+    </div>
+
+    <div class="btn" role="footer">
+      <lightning-button label="Save" onclick={buttonHandler}></lightning-button>
+      <lightning-button
+        label="Cancel"
+        onclick={buttonHandler}
+      ></lightning-button>
+    </div>
+  </lightning-quick-action-panel>
+</template>
