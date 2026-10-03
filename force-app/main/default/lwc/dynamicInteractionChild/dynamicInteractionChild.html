@@ -1,0 +1,12 @@
+<template>
+  <lightning-card>
+    <div lwc:if={computedVals}>
+      <p class="slds-text-color_success">
+        recordId : {recordId} , ObjectApiName : {objectApiName}
+      </p>
+    </div>
+    <div lwc:else>
+      <p class="slds-text-color_error">No data available to display</p>
+    </div>
+  </lightning-card>
+</template>
