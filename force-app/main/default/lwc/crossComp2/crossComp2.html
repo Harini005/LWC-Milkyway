@@ -1,0 +1,12 @@
+<template>
+  <lightning-card>
+    <template lwc:if={counterVal}>
+      No of items added to the cart : {counter}
+    </template>
+    <template lwc:else>
+      <div class="slds-text-color_success slds-text-align_center">
+        Listening...
+      </div>
+    </template>
+  </lightning-card>
+</template>
